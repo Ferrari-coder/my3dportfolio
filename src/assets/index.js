@@ -28,7 +28,7 @@ import styledComponents from "./tech/styledComponents.png"
 
 import meta from "./company/meta.png";  
 import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
+import moviefi from "./company/moviefi.png";
 import alphacore from "./company/alphacore.png";
 
 
@@ -64,7 +64,7 @@ export {
   framerMotion,
   meta,
   shopify,
-  starbucks,
+  moviefi,
   alphacore,
   nourrir,
   ecom,

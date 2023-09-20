@@ -15,7 +15,6 @@ import {
     git,
     figma,
     mui,
-    starbucks,
     alphacore,
     nourrir,
     threejs,
@@ -24,7 +23,8 @@ import {
     framerMotion,
     styledComponents,
     githubFetcher,
-    ecom
+    ecom,
+    moviefi
   } from "../assets";
   
   export const navLinks = [
@@ -134,8 +134,8 @@ import {
     {
       title: "Front-end Engineer",
       company_name: "MovieFi",
-      icon: starbucks,
-      iconBg: "#383E56",
+      icon: moviefi,
+      iconBg: "#FFFFFF",
       date: "0ct 2022 - Present",
       points: [
         "Streamlined the user experience by constructing a user-friendly interface using HTML, CSS, and ReactJS, enabling effortless uploading of short video clips for movie title identification; this led to a significant boost in user engagement, fostering a 50% increase in active participation and identification accuracy.",

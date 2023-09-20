@@ -12,6 +12,38 @@
   scroll-behavior: smooth;
   color-scheme: dark;
 }
+.hide{
+  @media(max-width:960px){
+    display: none;
+  }
+}
+.show{
+  @media(max-width:960px){
+    display: block;
+  }
+}
+.footer-hide{
+  @media(max-width:950px){
+    display: none;
+  }
+}
+.column {
+  @media (max-width:768px) {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+.nocenter{
+  @media (max-width:768px) {
+    align-items: start;
+  }
+}
+.text_col{
+  @media (max-width:470px) {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
 
 .hash-span {
   margin-top: -100px;

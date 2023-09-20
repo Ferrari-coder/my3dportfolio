@@ -10,19 +10,21 @@ import {
     reactjs,
     redux,
     tailwind,
-    nodejs,
-    mongodb,
+    sass,
+    vue,
     git,
     figma,
-    docker,
-    meta,
+    mui,
     starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+    alphacore,
+    nourrir,
     threejs,
+    firebase,
+    bootstrap,
+    framerMotion,
+    styledComponents,
+    githubFetcher,
+    ecom
   } from "../assets";
   
   export const navLinks = [
@@ -42,19 +44,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "ReactJs",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "VueJs",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "TypeScrpit",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "TailwindCSS",
       icon: creator,
     },
   ];
@@ -89,12 +91,12 @@ import {
       icon: tailwind,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
+      name: "Sass",
+      icon: sass,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "Vue Js",
+      icon: vue,
     },
     {
       name: "Three JS",
@@ -109,62 +111,50 @@ import {
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
-    },
+      name: "mui",
+      icon: mui,
+    }, 
+    // {
+    //   name: "firebase",
+    //   icon: firebase,
+    // },
+    // {
+    //   name: "framerMotion",
+    //   icon: framerMotion,
+    // },{
+    //   name: "bootstrap",
+    //   icon: bootstrap,
+    // },{
+    //   name: "styled components",
+    //   icon: styledComponents,
+    // },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Front-end Engineer",
+      company_name: "MovieFi",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "0ct 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Streamlined the user experience by constructing a user-friendly interface using HTML, CSS, and ReactJS, enabling effortless uploading of short video clips for movie title identification; this led to a significant boost in user engagement, fostering a 50% increase in active participation and identification accuracy.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Front-end Engineer",
+      company_name: "Alpha-core Labs",
+      icon: alphacore,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Aug 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Collaborating closely with clients to understand their vision and translate it into user-friendly, visually appealing interfaces.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Maintained a high standard of code quality, fostering collaboration and knowledge sharing within the development team.",
+        "Implemented performance optimization techniques, resulting in a 20% improvement in page load times, enhancing user retention and overall user experience.",
       ],
     },
   ];
@@ -172,56 +162,35 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Fantastic work. Fast and very efficient. Strong handle of concept and also very creative.",
+      name: "Stanley Osuide",
+      designation: "CEO",
+      company: "IBT Awards",
+      image: "https://randomuser.me/api/portraits/men/4.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
+        "I've never met a front-end developer who truly cares about their clients' success like Rick does.",
+      name: "Maxwell Gbenga",
+      designation: "CEO",
+      company: "Alpha-core Labs",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "Feranmi is a top notch front-end developer. Client-first builds so immaculately structured you won't believe it! Highly recommended.",
+      name: "Oluwatosin BMT",
+      designation: "CEO",
+      company: "MovieFi",
+      image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Drink Nourrir",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Drink Nourrir is an e-commerce website for food/drinks. It has a certified payment system for easy checkout, the website is user-friendly.",
       tags: [
         {
           name: "react",
@@ -232,33 +201,54 @@ import {
           color: "green-text-gradient",
         },
         {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: nourrir,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "FA Shoppy",
+      description:
+        "A high-performing clothing e-commerce website built utilizing the MERN stack; achieved a reduced cart abandonment rate by 25% through seamless user experience optimization.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "restapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "styled components",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: ecom,
+      source_code_link: "https://github.com/Ferrari-coder/Fashoppy",
+    },
+    {
+      name: "GitHub Fetcher",
+      description:
+        "A VueJS application that uses GitHub API to fetch user data and repositories.",
+      tags: [
+        {
+          name: "vuejs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "axios",
+          color: "green-text-gradient",
+        },
+        {
           name: "scss",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: githubFetcher,
+      source_code_link: "https://github.com/Ferrari-coder/Altschool-third-semester-project",
     },
   ];
   

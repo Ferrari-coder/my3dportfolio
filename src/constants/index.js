@@ -52,7 +52,7 @@ import {
       icon: mobile,
     },
     {
-      title: "TypeScrpit",
+      title: "TypeScript",
       icon: backend,
     },
     {

@@ -23,6 +23,7 @@ import {
     framerMotion,
     styledComponents,
     githubFetcher,
+    alphacorelabs,
     ecom,
     moviefi
   } from "../assets";
@@ -228,6 +229,26 @@ import {
       ],
       image: ecom,
       source_code_link: "https://github.com/Ferrari-coder/Fashoppy",
+    },{
+      name: "Alpha-core labs",
+      description:
+        "Company website for software development agency Alpha-core labs.",
+      tags: [
+        {
+          name: "Reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "styled-components",
+          color: "green-text-gradient",
+        },
+        {
+          name: "RESTAPI",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: alphacorelabs,
+      source_code_link: "https://alpha-corelabs.com/",
     },
     {
       name: "GitHub Fetcher",

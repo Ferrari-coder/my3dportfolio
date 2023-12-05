@@ -35,6 +35,7 @@ import alphacore from "./company/alphacore.png";
 import nourrir from "./nourrir.png";
 import ecom from "./ecom.png";
 import githubFetcher from "./githubFetcher.png";
+import alphacorelabs from "./Alpha-corelabs.png";
 
 export {
   logo,
@@ -69,4 +70,5 @@ export {
   nourrir,
   ecom,
   githubFetcher,
+  alphacorelabs,
 };

@@ -20,22 +20,22 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-import firebase from "./tech/firebase.png"
-import bootstrap from "./tech/bootstrap.png"
-import framerMotion from "./tech/framerMotion.svg"
-import styledComponents from "./tech/styledComponents.png"
+import firebase from "./tech/firebase.png";
+import bootstrap from "./tech/bootstrap.png";
+import framerMotion from "./tech/framerMotion.svg";
+import styledComponents from "./tech/styledComponents.png";
 
-
-import meta from "./company/meta.png";  
+import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import moviefi from "./company/moviefi.png";
 import alphacore from "./company/alphacore.png";
-
+import rebake from "./company/rebake.svg";
 
 import nourrir from "./nourrir.png";
 import ecom from "./ecom.png";
 import githubFetcher from "./githubFetcher.png";
 import alphacorelabs from "./Alpha-corelabs.png";
+import rebakee from "./rebakee.png";
 
 export {
   logo,
@@ -71,4 +71,6 @@ export {
   ecom,
   githubFetcher,
   alphacorelabs,
+  rebake,
+  rebakee,
 };

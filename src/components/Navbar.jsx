@@ -76,7 +76,7 @@ const Navbar = () => {
             <button
               onClick={() =>
                 window.open(
-                  "https://drive.google.com/file/d/1IlIv2i5tg7HWAWL4rDm780I-hnoLgg_f/view",
+                  "https://drive.google.com/file/d/1YDvwvNTbtaUXGvu1f2B7yb5Af8DGp2G-/view",
                   "_blank"
                 )
               }
@@ -117,7 +117,7 @@ const Navbar = () => {
                 <button
                   onClick={() =>
                     window.open(
-                      "https://drive.google.com/file/d/1IlIv2i5tg7HWAWL4rDm780I-hnoLgg_f/view",
+                      "https://drive.google.com/file/d/1YDvwvNTbtaUXGvu1f2B7yb5Af8DGp2G-/view",
                       "_blank"
                     )
                   }

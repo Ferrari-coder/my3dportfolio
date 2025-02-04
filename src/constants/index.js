@@ -27,7 +27,8 @@ import {
     ecom,
     moviefi, 
     rebake,
-    rebakee
+    rebakee,
+    spowse
   } from "../assets";
   
   export const navLinks = [
@@ -145,6 +146,19 @@ import {
         "Creating interfaces for configuring applicaTon segngs, preferences, and opTons within the admin panel.",
         "Collaborating with backend developers to integrate the frontend admin interface with backend systems and databases, ensuring seamless data flow and synchronization.",
         "Implement security measures such as input validaTon, data sanitization, and protection against common vulnerabiliTes to safeguard the admin interface and data.",
+      ],
+    },
+    {
+      title: "Front-end and Web Developer",
+      company_name: "Spowse",
+      icon: spowse,
+      iconBg: "#FFFFFF",
+      date: "July 2024 - Dec 2024",
+      points: [
+        "Worked closely with the UI/UX designer to create a pixel-perfect website for Spowse, a dating app for Africans, delivering a visually stunning platform that adhered to brand guidelines.",
+        "Optimized website performance to achieve a load time of less than 2 seconds, enhancing user retention and improving overall site rankings.",
+        "Developed and implemented complex animations to elevate user engagement and create an interactive browsing experience.",
+        "Ensured the website was fully responsive across all devices and optimized for search engines, resulting in improved organic traffic and accessibility.",
       ],
     },
     {

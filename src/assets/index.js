@@ -30,6 +30,7 @@ import shopify from "./company/shopify.png";
 import moviefi from "./company/moviefi.png";
 import alphacore from "./company/alphacore.png";
 import rebake from "./company/rebake.svg";
+import spowse from "./company/spowse_logo.svg";
 
 import nourrir from "./nourrir.png";
 import ecom from "./ecom.png";
@@ -73,4 +74,5 @@ export {
   alphacorelabs,
   rebake,
   rebakee,
+  spowse
 };

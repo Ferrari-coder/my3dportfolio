@@ -306,6 +306,27 @@ import {
       image: rebakee,
       source_code_link: "https://www.rebake.co/",
     },
+    // {
+    //   name: "Forcythe Homepage Clone",
+    //   description:
+    //     "Company website for software development agency Alpha-core labs.",
+    //   tags: [
+    //     {
+    //       name: "Reactjs",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "TailwindCss",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "Framer motion",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: rebakee,
+    //   source_code_link: "https://forcythe-front.vercel.app/",
+    // },
   ];
   
   export { services, technologies, experiences, testimonials, projects };
